@@ -16,5 +16,5 @@ EcoTech_Solutions/
 │   └── conexion.py           # Gestión de parámetros y conexión al servidor Oracle
 │
 ├── main.py                   # Punto de entrada principal y pruebas de integración
-├── requirements.txt          # Dependencias oficiales del proyecto
-└── README.md                 # Documentación técnica del proyecto
+├── README.md                 # Documentación técnica del proyecto
+└── requirements.txt          # Dependencias oficiales del proyecto
