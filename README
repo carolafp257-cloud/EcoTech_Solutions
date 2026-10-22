@@ -1,0 +1,20 @@
+# EcoTech Solutions - Sistema de Gestión Interna (EquipTrack)
+
+## 1. Descripción del Proyecto
+Este proyecto corresponde al desarrollo de la solución informática para la empresa **EcoTech Solutions**, en el marco de la asignatura **Programación Orientada a Objeto Seguro (TI3021)**. Su objetivo principal es implementar un prototipo de software en Python a partir de un modelo UML validado, aplicando los principios de la Programación Orientada a Objetos (POO), encapsulamiento, reutilización de código y persistencia segura mediante una base de datos relacional.
+
+---
+## 2. Estructura de la Arquitectura Modular
+El proyecto ha sido estructurado bajo un estándar de desarrollo profesional, separando la lógica del dominio, la capa de acceso a datos y la ejecución principal:
+
+```text
+EcoTech_Solutions/
+│
+├── src/
+│   ├── __init__.py           # Inicializador de paquete de Python
+│   ├── clases.py             # Definición de clases, herencia y reglas de negocio
+│   └── conexion.py           # Gestión de parámetros y conexión al servidor Oracle
+│
+├── main.py                   # Punto de entrada principal y pruebas de integración
+├── requirements.txt          # Dependencias oficiales del proyecto
+└── README.md                 # Documentación técnica del proyecto
